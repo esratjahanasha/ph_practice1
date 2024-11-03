@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Practice tasks</title>
+  </head>
+  <body>
+    <!-- practice project1 -->
+    <main>
+        <p class="bodyh">practice project1</p>
+      <section class="container-wrap">
+        <hr />
+        <section class="image-part"> 
+          <label for="searching-image">Search your Image here:</label>
+          <div class="input">
+            <input
+              type="text"
+              name="searching-image"
+              id="searching-image"
+              placeholder="Kung fu panda"
+            />
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <button type="button">Search</button>
+          <div class="image">
+            <img src="image-product-1.jpg" />
+          </div>
+          <a href="#">for more click here</a>
+        </section>
+
+        <div class="form">
+          <hr />
+          <pre>Feedback form: </pre>
+          <form>
+            <label>Name:</label>
+            <input type="text" name="name" id="name" class="input-form" />
+            <label>Date:</label>
+            <input
+              type="text"
+              name="date"
+              id="date"
+              class="input-form"
+              placeholder="mm/dd/yyy"
+            />
+            <label>Comment:</label>
+            <textarea rows="5" cols="50" class="input-form"></textarea>
+            <div class="submit-btn">
+                <button type="button" class="submit">submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- practice project1 end-->
+      
+      
+      <p class="bodyh p2" >practice project2</p>
+      <!-- practice project2 start-->
+          <section class="project2">
+            <h3>feedback form for  a storytelling contest-</h3>
+
+            <form>
+                <label>Name: </label>
+            <input type="text" name="name" id="name" placeholder="enter your name"/>
+            <br /><br />
+            <label>email: </label>
+            <input type="email" name="email" id="email" placeholder="enter your email"/>
+            <br /><br />
+            
+            <fieldset>
+                <legend>comment your experience</legend>
+                <br />
+                <textarea name="comments" placeholder="share your thought" cols="50" rows="5" ></textarea>
+                </fieldset>
+
+                <label>rate our stories: </label>
+                <select>
+                    <option>good</option>
+                    <option>execllent</option>
+                    <option>bad</option>
+                </select>
+                <br /><br />
+                <button type="button">submit</button>
+            </form>
+               
+          </section>
+
+
+    </main>
+     
+  </body>
+</html>
